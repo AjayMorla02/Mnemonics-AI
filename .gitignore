@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+*.egg-info/
+*.db
+
+# VSCode
+.vscode/
+
+# Node
+client/my-app/node_modules/
+client/my-app/build/
+client/my-app/.env
+
+# OS
+.DS_Store
+Thumbs.db
+*Zone.Identifier*
+
+# Local archives and generated inventories
+*.zip
+allfileshas.txt
+
+# Python model checkpoints and generated audio
+Backend/app/mnemonic_songs_finetune/
+Backend/app/generated_audio/
+*.ckpt
+*.h5
+*.pth
+
+# Duplicate/editor-exported files
+.github/*(1).md
+alembic/*(1).py
+alembic/*(1).mako
+alembic/README(1)
+client/my-app/src zip.zip
